@@ -1,4 +1,4 @@
-🎓 Does Wife’s Power in Household Decision-Making Improve PKH Effectiveness?
+### 🎓 Does Wife’s Power in Household Decision-Making Improve PKH Effectiveness?
 Analyzing Indonesia's Cash Transfer Program with PCA and Logistic Regression. 
 Bachelor’s Thesis | Universitas Indonesia | 2025
 
@@ -42,3 +42,6 @@ While targeting women as PKH recipients is backed by literature, this study reve
 Empowerment is not automatic. Structural reform and family-level education are essential.
 Programs like P2K2 (PKH’s family education module) should increase focus on shifting household decision-making dynamics, not just budgeting skills.
 Future research and policy should go beyond targeting women, and work on enabling their authority in actual financial choices.
+
+## Let Me Walk You Through The Steps:
+1. [b3a_pk2_4.csv]()
