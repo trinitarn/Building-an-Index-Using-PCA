@@ -44,4 +44,9 @@ Programs like P2K2 (PKH’s family education module) should increase focus on sh
 Future research and policy should go beyond targeting women, and work on enabling their authority in actual financial choices.
 
 ## Let Me Walk You Through The Steps:
-1. [b3a_pk2_4.csv]()
+
+1. [b3a_pk2_4.csv](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/b3a_pk2_4.csv) is the dataset consists of household decision making dataset. Hence, we'll use it to make our IPK Indice, or the index which reflects the level of wife's decision making in the household. The tool used is Python in our [data](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/DATA.ipynb).
+
+2. Now, we use STATA to generate the PCA index. We do trials and errors, rotations and so on until the result is interpretable. But first, you need to make sure that the families in your sample has a wife that still alive [here](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/istri_5.dta). You can see the code [here](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/making%20the%20pca.do) and the PCA dataset [here](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/siappca012_5.csv).
+
+3. Then, after some data cleaning, we get [this](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/siapregress.dta) dataset. Now, you can process the regression with [this](https://github.com/trinitarn/Principal-Component-Analysis-to-Make-Women-s-Sense-of-Control-Index/blob/main/processing%20the%20regression.do).
